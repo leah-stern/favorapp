@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.cs.tufts.irisoliver.favorapp.search_favor">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/myAwesomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop ="75dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/need_a_favor"
+
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/driver"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="A ride!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/myAwesomeTextView"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/artist"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="New art for my room!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/driver"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/handyperson"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Someone to fix my toilet!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/tutor"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/fish"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Someone to feed my fish!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/handyperson"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/clean"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Someone to clean my room!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/chef"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/chef"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Someone to cook me dinner!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/fish"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/tutor"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Help with my math homework"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/artist"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/translate"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="A person to translate for me!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/knitter"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/knitter"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="A handknit scarf!"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/clean"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+

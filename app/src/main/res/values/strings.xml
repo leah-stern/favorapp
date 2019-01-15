@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FavorApp</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- string definitions sourced from
+            https://www.androidhive.info/2016/06/
+                    android-getting-started-firebase-simple-login-registration-auth/ -->
+    <!--<string name="action_sign_in_short">Register</string>-->
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <!--<string name="minimum_password">Password too short, enter minimum 6 characters!</string>-->
+
+    <string name="hint_password">Password</string>
+
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+
+    <string name="title_activity_signup">Sign in</string>
+
+
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="title_activity_skills">Skills</string>
+    <string name="title_activity_search_favor">search_favor</string>
+    <string name="title_activity_skilled_users">skilled_users</string>
+    <string name="large_text">hi </string>
+    <string name="alt_text">Sign up page</string>
+    <string name="enter_info">Enter Info</string>
+    <string name="need_a_favor">Need a favor?</string>
+    <string name="driver">Driver</string>
+    <string name="artist">Artist</string>
+    <string name="art">Art</string>
+    <string name="driving">Driving</string>
+    <string name="title_activity_user_profile">User_profile</string>
+    <string name="title_activity_log_in_activity">log_in_activity</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ba0404</color>
+    <color name="colorPrimaryDark">#9f3032</color>
+    <color name="colorAccent">#dc6c73</color>
+    <color name="white">#ffffff</color>
+
+    <!-- login page colors, sourced from
+        https://www.androidhive.info/2016/06/
+                android-getting-started-firebase-simple-login-registration-auth/ -->
+
+
+</resources>
